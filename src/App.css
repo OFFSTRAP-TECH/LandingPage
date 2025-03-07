@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.cdnfonts.com/css/academy-engraved-let');
 *{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /* Navbar Styles */
 .navbar-custom {
@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     background-color: black !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(58, 47, 47, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
