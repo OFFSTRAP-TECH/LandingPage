@@ -9,7 +9,7 @@ function NavBarComp() {
       <Container>
         {/* Logo on the left */}
         <Navbar.Brand href="#home">
-          <img src={offstrapLogo} height="35px" alt="OffStrap Logo" />
+          <img src={offstrapLogo} height="25px" alt="OffStrap Logo" />
         </Navbar.Brand>
 
         {/* Toggle button for mobile */}

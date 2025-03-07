@@ -5,7 +5,8 @@ import Col from "react-bootstrap/Col";
 
 function Slide() {
   return (
-    <section className="slide">
+    <div className="main_slide">
+       <section className="slide">
       <Container>
         <Row className="align-items-center">
           {/* Text Section */}
@@ -25,6 +26,9 @@ function Slide() {
         </Row>
       </Container>
     </section>
+
+    </div>
+   
   );
 }
 
